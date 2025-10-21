@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-14_22-50-17",
+            "content": "@@ -1794,100 +1794,9 @@\n ogio\n-, end=%22%22)  # %F0%9F%94%A7 n%C3%A3o imprime linha extra%0A            print()  # quebra de linha apenas uma vez\n+)\n %0A%0A  \n@@ -2062,9 +2062,8 @@\n %0A%0Amain()\n-%0A\n",
+            "lines": "84"
+        },
+        {
+            "label": "2025-10-14_22-52-03",
+            "content": "@@ -1552,34 +1552,8 @@\n e%7D%22)\n-  # imprime o comando lido\n %0A%0A  \n@@ -1794,42 +1794,69 @@\n ogio\n-)  # %3C-- volta ao print normal com\n+, end=%22%22)  # %F0%9F%94%A7 n%C3%A3o imprime linha extra%0A            print()  #\n  que\n@@ -1867,16 +1867,31 @@\n de linha\n+ apenas uma vez\n %0A%0A      \n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-10-14_22-54-40",
+            "content": "@@ -1233,12 +1233,913 @@\n minuto += 1%0A\n+            if self.minuto %3E 59:%0A                self.minuto = 0%0A                self.hora += 1%0A                if self.hora %3E 23:%0A                    self.hora = 0%0A%0A%0Adef main():%0A    relogio = Relogio(0, 0, 0)%0A%0A    while True:%0A        line = input().strip()%0A        args = line.split()%0A        print(f%22$%7Bline%7D%22)  # imprime o comando lido%0A%0A        if args%5B0%5D == %22end%22:%0A            break%0A%0A        elif args%5B0%5D == %22init%22:%0A            h, m, s = int(args%5B1%5D), int(args%5B2%5D), int(args%5B3%5D)%0A            relogio = Relogio(h, m, s)%0A%0A        elif args%5B0%5D == %22show%22:%0A            print(relogio)  # %3C-- volta ao print normal com quebra de linha%0A%0A        elif args%5B0%5D == %22set%22:%0A            h, m, s = int(args%5B1%5D), int(args%5B2%5D), int(args%5B3%5D)%0A            relogio.set_hora(h)%0A            relogio.set_minuto(m)%0A            relogio.set_segundo(s)%0A%0A        elif args%5B0%5D == %22next%22:%0A            relogio.nextSecond()%0A%0A%0Amain()%0A\n",
+            "lines": "84"
+        },
+        {
+            "label": "2025-10-14_22-56-15",
+            "content": "class Relogio:\n    def __init__(self, hora: int, minuto: int, segundo: int):\n        self.hora = 0\n        self.minuto = 0\n        self.segundo = 0\n\n        self.set_hora(hora)\n        self.set_minuto(minuto)\n        self.set_segundo(segundo)\n\n    def set_hora(self, hora: int):\n        if 0 <= hora <= 23:\n            self.hora = hora\n        else:\n            print(\"fail: Hora inv\u00e1lida! Deve estar entre 0 e 23\")\n\n    def set_minuto(self, minuto: int):\n        if 0 <= minuto <= 59:\n            self.minuto = minuto\n        else:\n            print(\"fail: Minuto inv\u00e1lido! Deve estar entre 0 e 59\")\n\n    def set_segundo(self, segundo: int):\n        if 0 <= segundo <= 59:\n            self.segundo = segundo\n        else:\n            print(\"fail: Segundo inv\u00e1lido! Deve estar entre 0 e 59\")\n\n    def get_hora(self):\n        return self.hora\n\n    def get_minuto(self):\n        return self.minuto\n\n    def get_segundo(self):\n        return self.segundo\n\n    def toString(self):\n        return f\"{self.hora:02d}:{self.minuto:02d}:{self.segundo:02d}\"\n\n    def __str__(self):\n        return self.toString()\n\n    def nextSecond(self):\n        self.segundo += 1\n        if self.segundo > 59:\n            self.segundo = 0\n            self.minuto += 1\n",
+            "lines": "48"
+        }
+    ]
+}
