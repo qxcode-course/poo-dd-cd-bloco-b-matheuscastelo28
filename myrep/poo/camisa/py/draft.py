@@ -28,5 +28,6 @@ def main():
         elif args[0] == "show":
             print(roupa)
         elif args[0] == "size":
+            
             roupa.setTamanho(args[1])
 main()

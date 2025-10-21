@@ -23,3 +23,17 @@
 2025-10-20 22:49:56, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
 2025-10-20 22:49:56, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100
 2025-10-20 22:49:57, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-20 22:53:54, MOVE, v:1, k:poo@motoca, mode:DOWN
+2025-10-20 22:55:23, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-20 23:00:11, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:2
+2025-10-20 23:00:12, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-20 23:00:14, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-20 23:32:42, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:22
+2025-10-20 23:32:44, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0
+2025-10-20 23:32:46, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0
+2025-10-20 23:32:46, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0
+2025-10-20 23:32:47, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-20 23:45:12, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-20 23:45:13, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-20 23:50:24, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-20 23:50:25, MOVE, v:1, k:poo@motoca, mode:BACK

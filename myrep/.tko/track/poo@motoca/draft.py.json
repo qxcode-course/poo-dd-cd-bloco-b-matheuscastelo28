@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-20_23-00-11",
+            "content": "@@ -7,33 +7,32 @@\n Pessoa: %0A    def\n- \n __init__(self, n\n@@ -44,468 +44,17 @@\n str,\n-idade:int):%0A        self.__nome = nome %0A        self.__idade = idade%0A        %0A    def __str__(self):%0A        return f%22(%7Bself.__nome%7D:%7Bself.__idade%7D)%22%0A    %0A    def getnome(self):%0A        return self.__nome%0A    %0A    def getidade(self):%0A        return self.__idade%0A        %0Aclass Moto:%0A    def __init__(self, potencia: int = 1):%0A        self.potencia = potencia%0A        self.tempo = 0%0A        self.pessoa: Pessoa %7C None = None%0A        %0A    def __str__(self):%0A        \n+ idade: int):\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-10-20_23-32-42",
+            "content": "class Pessoa: \n    def __init__(self, nome: str,idade:int):\n        self.__nome = nome \n        self.__idade = idade\n        \n    def __str__(self):\n        return f\"({self.__nome}:{self.__idade})\"\n    \n    def getnome(self):\n        return self.__nome\n    \n    def getidade(self):\n        return self.__idade\n        \nclass Moto:\n    def __init__(self, potencia: int = 1):\n        self.potencia = potencia\n        self.tempo = 0\n        self.pessoa: Pessoa | None = None\n        \n    def __str__(self):\n        ",
+            "lines": "22"
+        }
+    ]
+}
