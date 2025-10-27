@@ -1,0 +1,15 @@
+2025-10-21 19:23:14, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-21 19:23:15, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:92
+2025-10-21 20:00:30, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0
+2025-10-21 20:00:30, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0
+2025-10-21 20:05:27, EXEC, v:1, k:poo@motoca, mode:FULL, rate:40, size:92
+2025-10-21 20:08:55, EXEC, v:1, k:poo@motoca, mode:FULL, rate:40, size:92
+2025-10-21 20:15:42, EXEC, v:1, k:poo@motoca, mode:FULL, rate:100, size:92
+2025-10-21 20:15:44, EXEC, v:1, k:poo@motoca, mode:FULL, rate:100
+2025-10-21 20:15:53, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-21 20:16:38, MOVE, v:1, k:poo@grafite, mode:DOWN
+2025-10-21 20:39:19, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-21 20:39:19, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:29
+2025-10-21 20:44:51, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:44
+2025-10-21 20:49:16, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:45
+2025-10-21 20:49:23, MOVE, v:1, k:poo@grafite, mode:BACK
