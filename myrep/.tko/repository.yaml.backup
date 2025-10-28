@@ -2,13 +2,17 @@ version: '0.2'
 sources:
 - database: local
   link: ''
+  type: local
+  branch: master
   cache_path: ''
   cache_timestamp: ''
   filters: null
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
+  type: remote
+  branch: master
   cache_path: C:\Users\jessi\OneDrive\Área de Trabalho\ATV-POO\poo-dd-cd-bloco-b-matheuscastelo28\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-27 19:30:01'
+  cache_timestamp: '2025-10-28 08:32:16'
   filters:
   - acesso
   - simples
@@ -17,9 +21,13 @@ expanded:
 - poo@bloco_b-modificadores-de-acesso
 - poo@bloco_b-agregação-simples
 tasks:
-  poo@roupa: '{rate:100}'
-  poo@motoca: '{rate:100}'
-  poo@grafite: '{rate:10}'
+  poo@chinela: '{rate:100, human:sim__amigo_, alone:4, study:60}'
+  poo@camisa: '{rate:100, human:monito_e_amigo_, iagen:sim_chat, alone:5, study:80}'
+  poo@roupa: '{rate:100, human:amigo_, iagen:chat, alone:7, study:80}'
+  poo@relogio: '{iagen:chat_, study:30}'
+  poo@motoca: '{rate:100, human:amigo_monitor, iagen:chat, alone:4, study:90}'
+  poo@grafite: '{rate:100, human:amigo, iagen:chat, alone:7, study:120}'
+  poo@motouber: '{rate:100, human:amigo_monitor_, iagen:sim, alone:4, study:80}'
 flags:
   quests: 0
   tracks: 0
@@ -27,4 +35,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@notebook
+selected: poo@motouber

@@ -1,0 +1,12 @@
+2025-10-28 08:33:29, SELF, v:1, k:poo@motoca, rate:100, human:amigo_monitor, iagen:chat, alone:4, study:90
+2025-10-28 08:33:31, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-28 08:33:33, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-28 08:33:38, SELF, v:1, k:poo@grafite, rate:10, human:amigo, iagen:chat, alone:7, study:120
+2025-10-28 08:33:38, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-28 08:33:39, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-28 08:33:40, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-28 08:33:41, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-28 08:33:41, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-28 08:33:44, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-28 08:33:45, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-28 08:34:23, SELF, v:1, k:poo@motouber, rate:100, human:amigo_monitor_, iagen:sim, alone:4, study:80
