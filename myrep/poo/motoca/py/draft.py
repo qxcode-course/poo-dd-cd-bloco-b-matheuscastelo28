@@ -40,6 +40,8 @@ class Moto:
         self.pessoa = None
         
     def comprarTempo(self, value: int):
+        
+        
         self.tempo += value
         
     def dirigir(self, tempo: int):
